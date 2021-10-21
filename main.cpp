@@ -42,9 +42,7 @@ char is_winning(char player, char pc)
     if ((board[2] == board[4]) && (board[4] == board[6]) && (board[2] == player))
         return player;
     if ((board[2] == board[4]) && (board[4] == board[6]) && (board[2] == pc))
-    {
         return pc;
-    }
     return '\0';
 }
 
